@@ -1,0 +1,60 @@
+192.168.0.50:
+  TIME                     METHOD REQUEST                                                                                            STATUS            
+  2021-06-25T07:23:00.000Z GET    "/"                                                                                                401 (UNAUTHORIZED)
+  2021-06-25T07:23:00.000Z GET    "/login"                                                                                           200 (SUCCESS)     
+  2021-06-25T07:23:00.000Z GET    "/login.css"                                                                                       200 (SUCCESS)     
+  2021-06-25T07:23:00.000Z GET    "/login.js"                                                                                        200 (SUCCESS)     
+  2021-06-25T07:23:44.000Z POST   "/login"                                                                                           200 (SUCCESS)     
+  2021-06-25T07:23:45.000Z GET    "/" {authorizedUserId: "5Eckr4DTaLLDaDMGqmMJ3g"}                                                   200 (SUCCESS)     
+  2021-06-25T07:23:45.000Z GET    "/index.css" {authorizedUserId: "5Eckr4DTaLLDaDMGqmMJ3g"}                                          200 (SUCCESS)     
+  2021-06-25T07:23:45.000Z GET    "/index.js" {authorizedUserId: "5Eckr4DTaLLDaDMGqmMJ3g"}                                           200 (SUCCESS)     
+  2021-06-25T07:23:46.000Z GET    "/api/factory/status?factory=*" {authorizedUserId: "5Eckr4DTaLLDaDMGqmMJ3g"}                       200 (SUCCESS)     
+  2021-06-25T07:24:01.000Z GET    "/api/factory/machine/status?factory=meiyo&machine=*" {authorizedUserId: "5Eckr4DTaLLDaDMGqmMJ3g"} 200 (SUCCESS)     
+
+192.168.0.73:
+  TIME                     METHOD REQUEST                                                                                                         STATUS            
+  2021-06-25T07:47:00.000Z GET    "/"                                                                                                             401 (UNAUTHORIZED)
+  2021-06-25T07:47:01.000Z GET    "/login"                                                                                                        200 (SUCCESS)     
+  2021-06-25T07:47:02.000Z GET    "/login.css"                                                                                                    200 (SUCCESS)     
+  2021-06-25T07:47:03.000Z GET    "/login.js"                                                                                                     200 (SUCCESS)     
+  2021-06-25T07:48:01.000Z POST   "/login"                                                                                                        200 (SUCCESS)     
+  2021-06-25T07:48:02.000Z GET    "/" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}                                                                200 (SUCCESS)     
+  2021-06-25T07:48:03.000Z GET    "/index.css" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}                                                       200 (SUCCESS)     
+  2021-06-25T07:48:04.000Z GET    "/index.js" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}                                                        200 (SUCCESS)     
+  2021-06-25T07:48:04.000Z GET    "/api/factory/status?factory=*" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}                                    200 (SUCCESS)     
+  2021-06-25T07:48:14.000Z GET    "/api/factory/machine/status?factory=meiyo&machine=*" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}              200 (SUCCESS)     
+  2021-06-25T07:48:17.000Z GET    "/api/factory/machine/status?factory=meiyo&machine=LaserWelder" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}    200 (SUCCESS)     
+  2021-06-25T07:49:12.000Z GET    "/api/factory/machine/status?factory=berlin&machine=*" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}             200 (SUCCESS)     
+  2021-06-25T07:49:48.000Z GET    "/api/factory/machine/status?factory=berlin&machine=LaserCutter" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}   200 (SUCCESS)     
+  2021-06-25T07:51:20.000Z GET    "/api/factory/machine/status?factory=berlin&machine=MetalPress" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}    200 (SUCCESS)     
+  2021-06-25T07:52:15.000Z GET    "/api/factory/machine/status?factory=meiyo&machine=*" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"}              200 (SUCCESS)     
+  2021-06-25T07:52:53.000Z GET    "/api/factory/machine/status?factory=meiyo&machine=HeavyDutyDrill" {authorizedUserId: "1FtyZHWX9c8JJTZiYqq4Bs"} 200 (SUCCESS)     
+
+192.168.0.38:
+  TIME                     METHOD REQUEST                                                                                                      STATUS            
+  2021-06-25T08:01:00.000Z GET    "/"                                                                                                          401 (UNAUTHORIZED)
+  2021-06-25T08:01:00.000Z GET    "/login"                                                                                                     200 (SUCCESS)     
+  2021-06-25T08:01:00.000Z GET    "/login.css"                                                                                                 200 (SUCCESS)     
+  2021-06-25T08:01:00.000Z GET    "/login.js"                                                                                                  200 (SUCCESS)     
+  2021-06-25T08:01:37.000Z POST   "/login"                                                                                                     200 (SUCCESS)     
+  2021-06-25T08:01:38.000Z GET    "/" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"}                                                             200 (SUCCESS)     
+  2021-06-25T08:01:39.000Z GET    "/index.css" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"}                                                    200 (SUCCESS)     
+  2021-06-25T08:01:40.000Z GET    "/index.js" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"}                                                     200 (SUCCESS)     
+  2021-06-25T08:01:40.000Z GET    "/api/factory/status?factory=*" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"}                                 200 (SUCCESS)     
+  2021-06-25T08:01:58.000Z GET    "/api/factory/machine/status?factory=seiko&machine=*" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"}           200 (SUCCESS)     
+  2021-06-25T08:02:11.000Z GET    "/api/factory/machine/status?factory=seiko&machine=LaserWelder" {authorizedUserId: "irHRppZK35peUiTjxPuCdL"} 200 (SUCCESS)     
+
+192.168.0.47:
+  TIME                     METHOD REQUEST                                                                                                     STATUS            
+  2021-06-25T08:35:01.000Z GET    "/"                                                                                                         401 (UNAUTHORIZED)
+  2021-06-25T08:35:01.000Z GET    "/login"                                                                                                    200 (SUCCESS)     
+  2021-06-25T08:35:02.000Z GET    "/login.css"                                                                                                200 (SUCCESS)     
+  2021-06-25T08:35:03.000Z GET    "/login.js"                                                                                                 200 (SUCCESS)     
+  2021-06-25T08:35:58.000Z POST   "/login"                                                                                                    200 (SUCCESS)     
+  2021-06-25T08:35:58.000Z GET    "/" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}                                                            200 (SUCCESS)     
+  2021-06-25T08:35:58.000Z GET    "/index.css" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}                                                   200 (SUCCESS)     
+  2021-06-25T08:35:58.000Z GET    "/index.js" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}                                                    200 (SUCCESS)     
+  2021-06-25T08:35:59.000Z GET    "/api/factory/status?factory=*" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}                                200 (SUCCESS)     
+  2021-06-25T08:36:18.000Z GET    "/api/factory/machine/status?factory=seiko&machine=*" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}          200 (SUCCESS)     
+  2021-06-25T08:37:15.000Z GET    "/api/factory/machine/status?factory=seiko&machine=MetalPress" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"} 200 (SUCCESS)     
+  2021-06-25T08:37:29.000Z GET    "/api/factory/machine/status?factory=berlin&machine=*" {authorizedUserId: "t9aWDiPQ5Eg89da1kcqp26"}         200 (SUCCESS)     

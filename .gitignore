@@ -1,0 +1,24 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Local environment secrets
+.env
+secrets.json
+
+# Browser automation MCP artifacts & temporary files
+.playwright-mcp/
+landing_screenshot.png
+shield_screenshot.png
+shield_results_screenshot.png
+
+# Extremely large raw datasets (>100MB)
+Synthetic_Financial_datasets_log.csv
+
+# Local execution logs & temporary evaluation outputs
+*.log
+model_evaluation/
